@@ -19,7 +19,7 @@ showcase:
   button:
     icon: "icon-profile-fill"
     btnText: "My Resume"
-    URL: ""
+    URL: "https://frosty-agnesi-84101d.netlify.app/"
 
   socialLinks:
     - icon: "linkedin"
@@ -68,7 +68,7 @@ experience:
   button2:
     icon: "icon-profile-fill"
     btnText: "My Resume"
-    URL: ""
+    URL: "https://frosty-agnesi-84101d.netlify.app/"
 
   items:
     - title: "Owner"
