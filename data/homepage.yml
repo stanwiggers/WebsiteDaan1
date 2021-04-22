@@ -1,0 +1,105 @@
+# homepage
+homepage:
+  head:
+    title: "Home"
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I’m Daan."
+  subtitle: "Student at the University of Groningen"
+  description: "Welcome to my website! On this website you can find some information about me, how you can contact me and you can look at my resume."
+  image:
+    alt: "Showcase keyboard and mouse image"
+    x: "img/showcase/showcase.png"
+    _2x: "img/showcase/showcase@2x.png"
+  imageMobile:
+    alt: "Showcase keyboard and mouse image"
+    x: "img/showcase/showcase-mobile.jpg"
+
+  button:
+    icon: "icon-profile-fill"
+    btnText: "My Resume"
+    URL: ""
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/daan-wassink/"
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: '<p class="lead">
+    Hi there! My name is Daan Wassink, I was born in 1996 and live in Groningen. I would describe myself as a .....
+    </p>
+    <p class="lead">
+    I am a sports enthusiast, I love hanging out with friends and ......
+    </p>'
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com/in/daan-wassink/"
+  image:
+    x: "img/who-am-i/avatar.jpg"
+    _2x: "img/who-am-i/avatar.jpg"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "Rijksuniversiteit Groningen"
+      year: "2019-Present"
+      degree: "MSc Management Accounting & Control"
+
+    - university: "Saxion Deventer"
+      year: "2014-2019"
+      degree: "Bachelor Commercial Economics"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "Do you want to know more about my experience? Check out my LinkedIn page, or you can look at my resume."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/daan-wassink/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "My Resume"
+    URL: ""
+
+  items:
+    - title: "Owner"
+      company: "GING&Juice"
+      duration: "Jun 2020 - Jan 2021"
+
+    - title: "Sales Advisor"
+      company: "T-Mobile"
+      duration: "Mar 2018 - Oct 2019"
+
+    - title: "Deliverer"
+      company: "WDeliver"
+      duration: "May 2016 - Sep 2017"
+
+
+# contact
+contact:
+  enable: true
+  title: "Contact"
+  form:
+    method: "POST"
+    action: "#"
+    full_name: "Full Name"
+    email: "Email Address"
+    message: "Type Your Message Here"
+  phone:
+    title: "Phone Number"
+    number: "+316 28715004"
+  email:
+    title: "Email"
+    email: '<a href="mailto:daanwassink@live.nl">daanwassink@live.nl</a>'
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
